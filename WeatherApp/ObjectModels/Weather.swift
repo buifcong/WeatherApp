@@ -10,7 +10,7 @@ import ObjectMapper
 
 class DataWeather : Mappable {
     var count : Int?
-    var data : [Data]?
+    var data : [ResponseWeather]?
     var minutely : [Minutely]?
 
     required init?(map: Map) {}
@@ -116,7 +116,7 @@ class Minutely : Mappable {
     var temp : Double?
     var timestamp_local : String?
     var ts : Int?
-    var precip : Int?
+    var precip : Double?
     
     init(){}
 

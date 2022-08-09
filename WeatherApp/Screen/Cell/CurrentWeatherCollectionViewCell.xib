@@ -64,7 +64,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8hp-je-AxB">
                                         <rect key="frame" x="0.0" y="297" width="317" height="194"/>
                                         <subviews>
-                                            <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbE-d5-tbZ">
+                                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JbE-d5-tbZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="317" height="42.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wind" translatesAutoresizingMaskIntoConstraints="NO" id="Ab4-i9-JiT">
@@ -91,7 +91,7 @@
                                                     <constraint firstItem="Ab4-i9-JiT" firstAttribute="top" secondItem="JbE-d5-tbZ" secondAttribute="top" constant="6" id="tdS-xS-x2r"/>
                                                 </constraints>
                                             </view>
-                                            <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xu-pd-ayM">
+                                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xu-pd-ayM">
                                                 <rect key="frame" x="0.0" y="50.5" width="317" height="42.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun-horizon" translatesAutoresizingMaskIntoConstraints="NO" id="6g2-oI-643">
@@ -118,7 +118,7 @@
                                                     <constraint firstItem="6g2-oI-643" firstAttribute="leading" secondItem="8Xu-pd-ayM" secondAttribute="leading" constant="16" id="t9c-Ig-06Y"/>
                                                 </constraints>
                                             </view>
-                                            <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTm-Fo-9Ab">
+                                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JTm-Fo-9Ab">
                                                 <rect key="frame" x="0.0" y="101" width="317" height="42.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon-stars" translatesAutoresizingMaskIntoConstraints="NO" id="eIL-Bb-wjr">
@@ -145,7 +145,7 @@
                                                     <constraint firstAttribute="bottom" secondItem="eIL-Bb-wjr" secondAttribute="bottom" constant="6" id="bxg-Je-fLZ"/>
                                                 </constraints>
                                             </view>
-                                            <view alpha="0.65000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbn-kZ-whR">
+                                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dbn-kZ-whR">
                                                 <rect key="frame" x="0.0" y="151.5" width="317" height="42.5"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="wjn-zc-7hK">

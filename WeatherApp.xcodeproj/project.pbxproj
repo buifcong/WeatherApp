@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0DD30C7D152C7A67530D72F2 /* Pods_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6D4E809523DBC32A0A217D /* Pods_WeatherApp.framework */; };
+		D50D988D289EC1C800E8F035 /* FutureWeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D988B289EC1C800E8F035 /* FutureWeatherCollectionViewCell.swift */; };
+		D50D988E289EC1C800E8F035 /* FutureWeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D50D988C289EC1C800E8F035 /* FutureWeatherCollectionViewCell.xib */; };
+		D5DFF34E289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DFF34C289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.swift */; };
+		D5DFF34F289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5DFF34D289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.xib */; };
 		D5F3DB2E289E074700D2B2D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F3DB2D289E074700D2B2D8 /* AppDelegate.swift */; };
 		D5F3DB37289E074900D2B2D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F3DB36289E074900D2B2D8 /* Assets.xcassets */; };
 		D5F3DB3A289E074900D2B2D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F3DB38289E074900D2B2D8 /* LaunchScreen.storyboard */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		19A82C3C0299C930092C3204 /* Pods-WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
 		8B91C8946927B7EAFC463F8D /* Pods-WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WeatherApp/Pods-WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D50D988B289EC1C800E8F035 /* FutureWeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureWeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		D50D988C289EC1C800E8F035 /* FutureWeatherCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FutureWeatherCollectionViewCell.xib; sourceTree = "<group>"; };
+		D5DFF34C289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutelyWeatherTableViewCell.swift; sourceTree = "<group>"; };
+		D5DFF34D289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MinutelyWeatherTableViewCell.xib; sourceTree = "<group>"; };
 		D5F3DB2A289E074700D2B2D8 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F3DB2D289E074700D2B2D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5F3DB36289E074900D2B2D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,6 +135,10 @@
 			children = (
 				D5F3DB4E289E1C1C00D2B2D8 /* CurrentWeatherCollectionViewCell.swift */,
 				D5F3DB4F289E1C1C00D2B2D8 /* CurrentWeatherCollectionViewCell.xib */,
+				D50D988B289EC1C800E8F035 /* FutureWeatherCollectionViewCell.swift */,
+				D50D988C289EC1C800E8F035 /* FutureWeatherCollectionViewCell.xib */,
+				D5DFF34C289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.swift */,
+				D5DFF34D289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -203,6 +215,8 @@
 				D5F3DB3A289E074900D2B2D8 /* LaunchScreen.storyboard in Resources */,
 				D5F3DB48289E088300D2B2D8 /* WeatherViewController.xib in Resources */,
 				D5F3DB37289E074900D2B2D8 /* Assets.xcassets in Resources */,
+				D50D988E289EC1C800E8F035 /* FutureWeatherCollectionViewCell.xib in Resources */,
+				D5DFF34F289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.xib in Resources */,
 				D5F3DB51289E1C1C00D2B2D8 /* CurrentWeatherCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5F3DB50289E1C1C00D2B2D8 /* CurrentWeatherCollectionViewCell.swift in Sources */,
+				D5DFF34E289FBB9400C7A2CC /* MinutelyWeatherTableViewCell.swift in Sources */,
 				D5F3DB2E289E074700D2B2D8 /* AppDelegate.swift in Sources */,
+				D50D988D289EC1C800E8F035 /* FutureWeatherCollectionViewCell.swift in Sources */,
 				D5F3DB4A289E0A1600D2B2D8 /* Weather.swift in Sources */,
 				D5F3DB47289E088300D2B2D8 /* WeatherViewController.swift in Sources */,
 				D5F3DB4C289E182300D2B2D8 /* Extension.swift in Sources */,
