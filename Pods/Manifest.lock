@@ -2,23 +2,27 @@ PODS:
   - Alamofire (5.5.0)
   - MBProgressHUD (1.2.0)
   - ObjectMapper (4.2.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
   - MBProgressHUD
   - ObjectMapper
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - MBProgressHUD
     - ObjectMapper
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 7a6d176e61eeb36cac23ecd9bd616bf152075890
+PODFILE CHECKSUM: 041f6a992e122208e492540e875028c88a9e87e9
 
 COCOAPODS: 1.11.3

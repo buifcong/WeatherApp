@@ -14,6 +14,7 @@ class MinutelyWeatherTableViewCell: UITableViewCell {
     @IBOutlet weak var lbRainOrSunny: UILabel!
     @IBOutlet weak var lbTemp: UILabel!
     @IBOutlet weak var lbTime: UILabel!
+    @IBOutlet weak var lblTs: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -28,8 +29,9 @@ class MinutelyWeatherTableViewCell: UITableViewCell {
     var item:Minutely?{
         didSet {
             lbSnow.text = "\(item?.snow ?? 0)"
-            lbTemp.text = "\(item?.temp ?? 0)"
+            lbTemp.text = "\(item?.temp ?? 0)℃"
             lbTime.text = item?.timestamp_local
+            lblTs.text = "\(item?.ts ?? 0)"
             if item?.precip == 0 {
                 ivRaninOrSunny.image = UIImage.init(named: "sun")
                 lbRainOrSunny.text = "sunny"
