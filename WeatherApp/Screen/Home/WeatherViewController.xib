@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherViewController" customModule="WeatherApp" customModuleProvider="target">
             <connections>
+                <outlet property="btnGoTo16Day" destination="fMG-Wa-nRe" id="pJs-6C-2lL"/>
                 <outlet property="collectionView" destination="lkb-cZ-0tX" id="ePB-qG-cGz"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -39,19 +40,31 @@
                         <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="DpQ-Ml-MTN">
                             <rect key="frame" x="0.0" y="792" width="414" height="26"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <color key="pageIndicatorTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <color key="currentPageIndicatorTintColor" red="0.99215686270000003" green="0.0" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="pageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="currentPageIndicatorTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </pageControl>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fMG-Wa-nRe">
+                            <rect key="frame" x="0.0" y="784" width="414" height="34"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="plain" title="16 day forecast"/>
+                            <connections>
+                                <action selector="actionButton:" destination="-1" eventType="touchUpInside" id="jfG-PH-fNX"/>
+                            </connections>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="DpQ-Ml-MTN" firstAttribute="leading" secondItem="QO5-5d-diV" secondAttribute="leading" id="JcV-3h-O1T"/>
+                        <constraint firstAttribute="trailing" secondItem="fMG-Wa-nRe" secondAttribute="trailing" id="OAE-qo-dif"/>
+                        <constraint firstItem="fMG-Wa-nRe" firstAttribute="top" secondItem="lkb-cZ-0tX" secondAttribute="bottom" id="Q6u-eo-iIv"/>
                         <constraint firstAttribute="trailing" secondItem="lkb-cZ-0tX" secondAttribute="trailing" id="SIR-Qs-SnJ"/>
                         <constraint firstAttribute="trailing" secondItem="DpQ-Ml-MTN" secondAttribute="trailing" id="SqM-em-Jrf"/>
                         <constraint firstAttribute="bottom" secondItem="DpQ-Ml-MTN" secondAttribute="bottom" id="V1a-ch-19Q"/>
                         <constraint firstItem="lkb-cZ-0tX" firstAttribute="top" secondItem="QO5-5d-diV" secondAttribute="top" id="fOt-1z-f9u"/>
+                        <constraint firstItem="fMG-Wa-nRe" firstAttribute="leading" secondItem="QO5-5d-diV" secondAttribute="leading" id="gRo-hp-db8"/>
                         <constraint firstItem="lkb-cZ-0tX" firstAttribute="leading" secondItem="QO5-5d-diV" secondAttribute="leading" id="grg-TH-Jx5"/>
                         <constraint firstItem="DpQ-Ml-MTN" firstAttribute="top" secondItem="lkb-cZ-0tX" secondAttribute="bottom" constant="8" symbolic="YES" id="koU-0N-ClG"/>
+                        <constraint firstAttribute="bottom" secondItem="fMG-Wa-nRe" secondAttribute="bottom" id="snY-Yx-oyM"/>
                     </constraints>
                 </view>
             </subviews>

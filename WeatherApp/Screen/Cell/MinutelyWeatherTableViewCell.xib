@@ -167,6 +167,7 @@
                 <outlet property="lbSnow" destination="En8-1g-miN" id="RBl-Px-FOp"/>
                 <outlet property="lbTemp" destination="zzs-pd-WUZ" id="mlZ-Lm-crs"/>
                 <outlet property="lbTime" destination="NPe-MM-nZp" id="uoi-r2-3ke"/>
+                <outlet property="lblTs" destination="Dbv-8i-3Dk" id="sWa-F4-jdX"/>
             </connections>
             <point key="canvasLocation" x="145.6521739130435" y="90.736607142857139"/>
         </tableViewCell>

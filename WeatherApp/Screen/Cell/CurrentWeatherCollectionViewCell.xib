@@ -224,11 +224,11 @@
                 <outlet property="imgWeather" destination="BOf-2A-O3u" id="tbs-Ma-Jxi"/>
                 <outlet property="lbCityName" destination="qh0-Vy-f0X" id="HqC-8f-bLc"/>
                 <outlet property="lbStatusCloud" destination="hkX-L2-IZI" id="oDi-n9-qP6"/>
-                <outlet property="lbSunrise" destination="3VZ-BB-lsO" id="gt0-bI-eJE"/>
-                <outlet property="lbSunset" destination="mdC-xu-Lie" id="YgL-Tp-tQ5"/>
                 <outlet property="lbTemp" destination="Prx-A6-hy7" id="wF3-ly-5du"/>
                 <outlet property="lbTimezone" destination="sGu-sa-eEp" id="Q5j-Sf-Fya"/>
                 <outlet property="lbWindSpeed" destination="xYw-RI-njC" id="Mf1-gR-ln9"/>
+                <outlet property="lblSunRise" destination="mdC-xu-Lie" id="YgL-Tp-tQ5"/>
+                <outlet property="lblSunSet" destination="3VZ-BB-lsO" id="gt0-bI-eJE"/>
                 <outlet property="viewSunRise" destination="8Xu-pd-ayM" id="6Ux-tN-nKg"/>
                 <outlet property="viewSunSet" destination="JTm-Fo-9Ab" id="Pbc-gy-FSW"/>
                 <outlet property="viewTimeZone" destination="dbn-kZ-whR" id="gQT-GS-SYE"/>

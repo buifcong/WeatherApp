@@ -9,4 +9,5 @@ target 'WeatherApp' do
 pod 'Alamofire'
 pod 'ObjectMapper'
 pod 'MBProgressHUD'
+pod 'SwiftyJSON'
 end

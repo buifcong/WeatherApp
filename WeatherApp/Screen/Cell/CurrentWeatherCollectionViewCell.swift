@@ -16,8 +16,8 @@ class CurrentWeatherCollectionViewCell: UICollectionViewCell {
     
 
     @IBOutlet weak var lbTimezone: UILabel!
-    @IBOutlet weak var lbSunset: UILabel!
-    @IBOutlet weak var lbSunrise: UILabel!
+    @IBOutlet weak var lblSunRise: UILabel!
+    @IBOutlet weak var lblSunSet: UILabel!
     @IBOutlet weak var lbWindSpeed: UILabel!
     @IBOutlet weak var lbStatusCloud: UILabel!
     @IBOutlet weak var lbTemp: UILabel!
@@ -36,8 +36,8 @@ class CurrentWeatherCollectionViewCell: UICollectionViewCell {
             lbTemp.text = "\(item?.temp ?? 0)"
             lbStatusCloud.text = item?.weather?.description
             lbWindSpeed.text = "Wind speed: \(item?.wind_spd ?? 0)m/s"
-            lbSunset.text = "At: \(item?.sunset ?? "")"
-            lbSunrise.text = "At: \(item?.sunrise ?? "")"
+            lblSunSet.text = "Sun set: \(item?.sunset ?? "")"
+            lblSunRise.text = "Sun rise: \(item?.sunrise ?? "")"
             lbTimezone.text = "\(item?.timezone ?? "") time zone"
         }
     }

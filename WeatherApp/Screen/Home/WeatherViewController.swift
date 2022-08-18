@@ -11,6 +11,8 @@ import ObjectMapper
 
 class WeatherViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var btnGoTo16Day: UIButton!
+    
     var arrWeather: [ResponseWeather] = [] {
         didSet{
             self.collectionView.reloadData()
@@ -23,12 +25,18 @@ class WeatherViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        title = "Weather"
+        btnGoTo16Day.clipsToBounds = true
+        btnGoTo16Day.layer.cornerRadius = 15
         configCollectionView()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         getAPI()
+    }
+    @IBAction func actionButton(_ sender: Any) {
+        let vc = WeatherForecastViewController()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     func configCollectionView(){
